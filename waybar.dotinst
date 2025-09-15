@@ -1,10 +1,20 @@
 {
-  "name": "Waybar Dotfiles",
-  "author": "Author",
-  "files": [
-    {
-      "source": "waybar",
-      "destination": "~/.config/waybar"
-    }
-  ]
+    "name": "Waybar Dotfiles",
+    "id": "com.username.waybar",
+    "description": "Minimal Waybar config for Hyprland",
+    "version": "1.0",
+    "author": "Name",
+    "homepage": "https://github.com/Rapid-Fast/wayland-dotfiles",
+    "dependencies": "",
+    "source": "https://github.com/Rapid-Fast/wayland-dotfiles.git",
+    "subfolder": "waybar",
+    "setupscript": "",
+    "restore": [
+        {
+            "title": "Waybar Config",
+            "source": ".config/waybar",
+            "value": true
+        }
+    ],
+    "settings": []
 }
