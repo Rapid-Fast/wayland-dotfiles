@@ -1,18 +1,16 @@
 {
-  "name": "Waybar Dotfiles (v0.14-ready)",
-  "id": "com.rapidfast.waybar.v014",
-  "description": "Waybar configuration updated for Waybar v0.14 (multi-monitor default)",
+  "name": "Waybar Dotfiles (simple layout)",
+  "id": "com.rapidfast.waybar.simple",
+  "description": "Waybar config - repo stores 'waybar/' at root",
   "version": "1.0",
   "author": "Rapid-Fast",
-  "homepage": "https://github.com/Rapid-Fast/wayland-dotfiles",
-  "dependencies": "",
   "source": "https://github.com/Rapid-Fast/wayland-dotfiles.git",
-  "subfolder": "waybar",
+  "subfolder": "",
   "setupscript": "",
   "restore": [
     {
       "title": "Waybar folder (~/.config/waybar)",
-      "source": ".config/waybar",
+      "source": "waybar",
       "value": true
     }
   ],
@@ -21,47 +19,7 @@
       "type": "text",
       "mode": "replacesingleline",
       "title": "Waybar Output (ml4w-modern)",
-      "file": ".config/waybar/themes/ml4w-modern/config",
-      "checkpoint": "Check",
-      "search": "\"output\":",
-      "value": "*",
-      "template": "\"output\": \"[VALUE]\""
-    },
-    {
-      "type": "text",
-      "mode": "replacesingleline",
-      "title": "Waybar Output (ml4w)",
-      "file": ".config/waybar/themes/ml4w/config",
-      "checkpoint": "Check",
-      "search": "\"output\":",
-      "value": "*",
-      "template": "\"output\": \"[VALUE]\""
-    },
-    {
-      "type": "text",
-      "mode": "replacesingleline",
-      "title": "Waybar Output (ml4w-minimal)",
-      "file": ".config/waybar/themes/ml4w-minimal/config",
-      "checkpoint": "Check",
-      "search": "\"output\":",
-      "value": "*",
-      "template": "\"output\": \"[VALUE]\""
-    },
-    {
-      "type": "text",
-      "mode": "replacesingleline",
-      "title": "Waybar Output (default)",
-      "file": ".config/waybar/themes/default/config",
-      "checkpoint": "Check",
-      "search": "\"output\":",
-      "value": "*",
-      "template": "\"output\": \"[VALUE]\""
-    },
-    {
-      "type": "text",
-      "mode": "replacesingleline",
-      "title": "Waybar Output (starter)",
-      "file": ".config/waybar/themes/starter/config",
+      "file": "waybar/themes/ml4w-modern/config",
       "checkpoint": "Check",
       "search": "\"output\":",
       "value": "*",
