@@ -1,0 +1,10 @@
+{
+  "name": "Waybar Dotfiles",
+  "author": "Author",
+  "files": [
+    {
+      "source": "waybar",
+      "destination": "~/.config/waybar"
+    }
+  ]
+}
